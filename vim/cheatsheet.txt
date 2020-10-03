@@ -1,0 +1,32 @@
+w -> jump word to word -< b for backward
+e -> jump to the end word -< ge for backward
+0 or gg -> move to first character of a line
+$ or G -> move to end of a line
+% -> jump to matching bracket
+daw -> delete word -< works with caw in insert mode
+ci" -> delete something inside double quotes, works with ci'
+da plus bracket -> delete a block surrounded by that da{ da(
+dat -> delete html tag
+cit -> delete content inside html tag
+repeat last change -> .
+insert new line below -> o <- O for above
+gi -> insert by last place
+v -> select character <- V for line
+:vsp {name file} -> vertical split <- :sp horizontal
+:tabnew {file} -> open file in new tab
+:tabn -> next tab -< :tabp <- previous tab
+ds' -> delete surrounding '
+cs'" -> change surrounding ' to "
+ctrl + w + (h/j/k/l) to switch file opened
+
+// NERDTree
+:NERDTree
+ctrl + ww -> switch nerdtree to file opened
+s -> open to right
+i -> open to bottom
+enter -> open to current
+
+
+// FZF
+ctrl + x split horizontal
+ctrl + v split vertical
